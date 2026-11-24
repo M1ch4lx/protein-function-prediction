@@ -1,0 +1,9 @@
+Method,Model,Accuracy,Balanced Acc,Macro F1,Weighted F1,CV Macro F1,Best params
+MaxMin,DecisionTree,0.43214285714285716,0.44020615235116967,0.43019788276994164,0.4331535324032705,0.5962772000967733,"{'ccp_alpha': 0.0, 'max_depth': 20, 'max_features': None, 'min_samples_leaf': 1}"
+MaxMin,RandomForest,0.715,0.712910996255947,0.7107912099820128,0.7149304860947308,0.7994748642872966,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1}"
+MaxMin,ExtraTrees,0.7385714285714285,0.7387341657635268,0.7352584843722015,0.7388410409131104,0.8141913966251042,"{'max_depth': None, 'max_features': 0.1, 'min_samples_leaf': 1}"
+MaxMin,HistGradBoost,0.7085714285714285,0.7067026783362814,0.714890990128852,0.7095389875726443,0.8043462024654977,"{'l2_regularization': 0.0, 'learning_rate': 0.1, 'max_leaf_nodes': 31}"
+Random,DecisionTree,0.5664285714285714,0.5664285714285714,0.5654377127203883,0.5654377127203883,0.5485249918328232,"{'ccp_alpha': 0.0, 'max_depth': None, 'max_features': None, 'min_samples_leaf': 1}"
+Random,RandomForest,0.8171428571428572,0.8171428571428571,0.8183545430894511,0.8183545430894513,0.7875988892962899,"{'max_depth': 20, 'max_features': 0.1, 'min_samples_leaf': 1}"
+Random,ExtraTrees,0.8264285714285714,0.8264285714285713,0.8277164491119329,0.8277164491119329,0.7991817325104457,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1}"
+Random,HistGradBoost,0.8157142857142857,0.8157142857142856,0.8169973228675165,0.8169973228675165,0.7895475323358674,"{'l2_regularization': 1.0, 'learning_rate': 0.1, 'max_leaf_nodes': 31}"
