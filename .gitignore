@@ -2,6 +2,7 @@
 __pycache__/
 *.py[oc]
 build/
+.ipynb_checkpoints/
 dist/
 wheels/
 *.egg-info
